@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Reviews</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+        .review-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+        .review-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .reviewer {
+            font-weight: bold;
+        }
+        .review-date {
+            color: #666;
+            font-size: 0.9em;
+        }
+        .review-rating {
+            color: #ffa500;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        .review-text {
+            font-size: 1em;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="review-container">
+        <div class="review-title">Excellent Product!</div>
+        <div>
+            <span class="reviewer">John Doe</span> - 
+            <span class="review-date">June 18, 2024</span>
+        </div>
+        <div class="review-rating">
+            &#9733; &#9733; &#9733; &#9733; &#9733;
+        </div>
+        <div class="review-text">
+            I absolutely love this product! It exceeded my expectations and I couldn't be happier with my purchase. The quality is top-notch and it performs exceptionally well. Highly recommended!
+        </div>
+    </div>
+</body>
+</html>
